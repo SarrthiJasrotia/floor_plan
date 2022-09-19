@@ -1,6 +1,9 @@
-function Bath(){
+function Bath(props){
     return(
-        <h1>Bath</h1>
+
+        <div className="bath">
+        <h1>{props.bathNum}</h1>
+        </div>
     )
 }
 

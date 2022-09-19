@@ -1,6 +1,10 @@
-function Bedroom(){
+function Bedroom(props){
     return(
-        <h1>Bedroom</h1>
+        <div className="bedroom">
+        
+        <h1>Bedroom {props.bedNum}</h1>
+        
+        </div>
     )
 }
 
